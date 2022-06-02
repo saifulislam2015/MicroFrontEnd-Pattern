@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "format": "prettier --write",
-    "start": "react-scripts start",
+    "start": "set PORT=3002 && react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test"
   },
