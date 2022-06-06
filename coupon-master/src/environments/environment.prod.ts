@@ -1,5 +1,6 @@
 export const environment = {
-  production: true
+  production: true,
+  APP_CONTENT_HOST: 'http://localhost:5000'
 };
 
 
